@@ -1,2 +1,2 @@
 # landing-page
-Landing page with HTML and CSS only
+I have created this common landing page for odin project course with help of HTML and CSS.
