@@ -64,12 +64,16 @@ a{
     background-color: #1f2937;
     align-items: center;
     gap: 50px;
-    max-height: 250px;
+    /* max-height: 250px; */
+    /* flex-wrap: wrap; */
 }
 
 .about-image >img{  
-    height: 250px;
-    width: 500px; 
+    height: 300px;
+    width: 600px; 
+}
+.about-text{
+    height: 300px;
 }
 
 #site-heading{
@@ -90,6 +94,46 @@ a{
     color: white;
     border-radius: 8px;
     border: none;
+}
+
+
+/* Information cards */
+
+.info-head{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 36px;
+    columns: #1f2937;
+    margin: 40px;
+}
+
+.info-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.info-cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;    
+    width: 200px;
+    align-items: center;
+    
+}
+
+.info-img{
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid #3883f6;   
+}
+
+.info-desc{
+    
+    font-size: 18px;
+    color: #1f2937;
+    text-align: center;
 }
 
 
