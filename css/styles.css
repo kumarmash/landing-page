@@ -6,7 +6,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* border: 1px solid black; */
 }
 
 /* header style */
@@ -65,15 +64,12 @@ a{
     align-items: center;
     gap: 75px;
     /* max-height: 250px; */
-    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
 }
 
 .about-image >img{  
     height: 300px;
     width: 500px; 
-}
-.about-text{
-    height: 300px;
 }
 
 #site-heading{
