@@ -136,6 +136,28 @@ a{
     text-align: center;
 }
 
+/*Quote styles */
+
+.main-quote{
+background-color: #e5e7eb;
+padding: 75px 400px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-by{
+    text-align: end;
+    color: #1f2937;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
 
 
 
